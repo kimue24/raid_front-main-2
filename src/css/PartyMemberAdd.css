@@ -1,0 +1,25 @@
+.selectMember {
+    display: flex;
+  }
+  
+  .selectMember > p {
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .member-list {
+    /* 기존 스타일 */
+    /* ... */
+  
+    /* 아래 스타일을 추가합니다 */
+    max-height: 10px; /* 리스트의 최대 높이를 설정합니다 */
+    overflow-y: auto; /* 리스트의 내용이 최대 높이를 초과할 경우 수직 스크롤을 활성화합니다 */
+  }
+  
+  .member-list.expanded {
+    max-height: none; /* 검색된 멤버가 있을 경우 최대 높이를 해제하여 동적으로 늘어나도록 합니다. */
+  }
+  
+  

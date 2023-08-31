@@ -1,0 +1,55 @@
+.raid {
+  display: flex;
+  width: 100%;
+  min-height: 1000px;
+  height: auto;
+}
+/* 
+.menu {
+  width: 20%;
+}
+
+.main {
+  width: 80%;
+} 
+
+ .aside {
+  position: relative;
+  left: -110px; 
+  margin-right: 100px;
+} 
+*/
+
+.notice {
+  margin-left: 20px; /* 오른쪽으로 이동 */
+  width: 800px; /* 원하는 너비 값으로 조정 */
+  max-height: 200px; /* 텍스트 박스의 최대 높이 값으로 조정 */
+  overflow: auto; /* 내용이 최대 높이를 초과할 경우 스크롤바 표시 */
+  white-space: normal; /* 텍스트가 여러 줄로 표시되도록 설정 */
+  color: #4fbdba;
+  font-weight: bold;
+  border: 1px solid black;
+  font-size: large;
+}
+
+
+
+.partyInfo {
+  background-color: white;
+  padding: 10px;
+  min-height: 20px; /* 원하는 최소 높이 값으로 설정 */
+  width: 100%; /* 필요에 따라 너비 값을 조정 */
+}
+
+.partyMemberAdd {
+  background-color: white;
+  padding: 10px;
+  min-height: 200px; /* 원하는 최소 높이 값으로 설정 */
+  width: 100%; /* 필요에 따라 너비 값을 조정 */
+}
+.party-addition-cotainer {
+  width: 800px; /* 원하는 너비 값으로 조정 */
+}
+.line {
+  border-bottom: 1px solid black;
+}

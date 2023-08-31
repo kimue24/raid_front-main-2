@@ -1,0 +1,13 @@
+.RaidButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.RaidButtonImg {
+  width: 400px;
+  height: 100px;
+  border: 1px solid gray;
+}
